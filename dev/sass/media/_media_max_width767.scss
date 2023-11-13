@@ -4,14 +4,15 @@
 
     header {
         .logo-block {
-            max-width: 126px;
+            max-width: 767px;
             width: 100%;
+
+            .navbar-toggler-icon {
+                margin-right: -13px;
+                margin-top: -22px;
+            }
         }
 
-        .navbar-nav {
-            align-items: center;
-            max-width: 767px;
-        }
 
         .navbar-brand {
             position: relative;
@@ -33,32 +34,7 @@
                 background-size: cover;
             }
         }
-
-        // .collapse:not(.show) {
-        //     margin-left: -30px;
-        // }
-
-        // .collapse {
-        //     transform: translate(-10px, 90px);
-        //     transition: 1s;
-        //     position: relative;
-
-        //     &::before {
-        //         content: "";
-        //         top: -25px;
-        //         z-index: -1;
-        //         position: absolute;
-        //         max-width: 767px;
-        //         width: 100%;
-        //         height: 120px;
-        //         background-color: #8176AF;
-        //     }
-        // }
-
-        // .navbar-collapse {
-        //     flex-basis: 0;
-        //     margin-left: -30px;
-        // }
+        
     }
 
 }
