@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat-regular';
+    background: #302C42;
+
+    .description {
+        color: #FFF;
+        font-family: 'Montserrat-regular';
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .container {
+        max-width: 1272px;
+        width: 100%;
+    }
+}
+
+.test {
+    // margin-top: -242px!important;
+    // margin-left: 678px!important;
+
+    transform: translate(682px, -156px);
+}

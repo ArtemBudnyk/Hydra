@@ -1,8 +1,125 @@
 header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
-	}
+    background: #302C42;
+    margin-top: 50px;
+
+    .container {
+        padding: 0;
+    }
+
+    .navbar {
+        display: flex;
+        max-width: 1272px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        &-nav {
+            margin-top: -25px;
+            max-width: 388px;
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+        background: #302C42;
+    }
+
+    .logo-block {
+        display: flex;
+        justify-content: space-between;
+        max-width: 397px;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        position: relative;
+        img {
+            width: 109px;
+            height: 119px;
+            margin-left: -3px;
+            margin-top: -4px;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 76px;
+            height: 46px;
+            background-image: url(assets/img/hydra.svg);
+            top: 29px;
+            left: 117px;
+        }
+    }
+
+    .nav-item {
+        a {
+            text-decoration: none;
+            color: $color-white;
+            font-family: 'Montserrat-bold';
+            font-size: 12px;
+            line-height: normal;
+
+            &:hover {
+                color: #C0B7E8;
+            }
+        }
+    }
+
+    .collapse {
+        justify-content: space-around;
+        width: 1272px;
+    }
+
+    .nav-btn-block {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 22px;
+
+        .btn {
+            width: 155px;
+            padding-top: 16px;
+            margin-left: 36px;
+            padding-bottom: 12px;
+        }
+
+        .contact-us {
+            color: $color-white;
+            font-family: 'Montserrat-bold';
+            font-size: 12px;
+            line-height: normal;
+            border-radius: 40px;
+            border: 2px solid #FFF;
+            padding: 16px 0px 12px 0px;
+            padding: 16px 4px 14px 0px;
+            margin-left: 36px;
+
+            &:hover {
+                color: #343045;
+                background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+            }
+        }
+    
+        .join {
+            color: #343045;
+            font-family: 'Montserrat-bold';
+            font-size: 12px;
+            line-height: normal;
+            border-radius: 40px;
+            background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+
+            &:hover {
+                color: $color-white;
+                border: 2px solid #FFF;
+                background:  #302C42;
+            }
+        }
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
 }
