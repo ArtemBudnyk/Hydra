@@ -117,9 +117,60 @@ header{
         }
     }
 
-    .navbar-toggler:focus {
-        outline: none;
-        box-shadow: none;
+    .navbar-toggler {
+        
+        &:focus {
+            box-shadow: none;
+            outline: none;
+        }
+
+        &[aria-expanded="true"] {
+
+            .navbar-toggler-icon {
+
+                width: 33px;
+            
+
+                &::before {
+                    width: 25px;
+                    transform: translate(-12px, -3px) rotate(45deg);
+                    transition: .2s;
+                }
+    
+                &::after {
+                    width: 25px;
+                    transform: translate(-12px, 3px) rotate(-45deg);
+                    transition: 0.2s;
+                }
+            }
+            
+            
+        }
+
+        &[aria-expanded="false"] {
+
+            .navbar-toggler-icon {
+
+                width: 28px;
+            
+
+                &::before {
+                    width: 33px;
+                    transform: translate(0, 0) rotate(0);
+                    transition: .2s;
+                }
+    
+                &::after {
+                    width: 33px;
+                    transform: translate(0, 0) rotate(0);
+                    transition: 0.2s;
+                }
+            }
+            
+            
+        }
     }
+
+
 
 }
