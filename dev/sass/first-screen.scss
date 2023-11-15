@@ -1,3 +1,127 @@
-h1 {
+.first-screen {
+    .col-description {
+        padding: 0;
+        max-width: 759px;
+        width: 100%;
 
+        .dive-title {
+            position: relative;
+            color: $color-white;
+            font-family: 'Montserrat-bold';
+            font-size: 40px;
+            line-height: normal;
+            padding-left: 118px;
+            padding-top: 4px;
+
+            &::before {
+                content: "Dive";
+                position: absolute;
+                font-family: 'Montserrat-bold';
+                font-size: 46px;
+                line-height: normal;
+                background: linear-gradient(92deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                display: inline-block;
+                left: 0px;
+                top: -5px;
+            }
+        }
+
+        .reality-title {
+            position: relative;
+            color: $color-white;
+            font-family: 'Montserrat-bold';
+            font-size: 40px;
+            line-height: normal;
+            margin: 10px 0 38px;
+
+            &::after {
+                content: "Virtual Reality";
+                position: absolute;
+                font-family: 'Montserrat-bold';
+                font-size: 46px;
+                line-height: normal;
+                background: linear-gradient(92deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                display: inline-block;
+                left: 60px;
+                top: -5px;
+            }
+        }
+
+        .description {
+            width: 450px;
+            color: #FFF;
+            font-family: 'Montserrat-regular';
+            font-size: 16px;
+            line-height: inherit;
+            margin-bottom: 69px;
+        }
+
+        .btn-build {
+            position: relative;
+            color: #343045;
+            font-family: 'Montserrat-bold';
+            font-size: 12px;
+            line-height: normal;
+            border-radius: 40px;
+            padding: 14px 41px;
+            background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+
+            &::after {
+                content: "";
+                position: absolute;
+                background-image: url(assets/img/arrow-first-screen.svg);
+                width: 100px;
+                height: 100px;
+                top: -29px;
+                left: 225px;
+            }
+
+            &:hover {
+                color: $color-white;
+                border: 2px solid #FFF;
+                background:  #302C42;
+            }
+        }
+    }
+
+    .col-photo {
+        max-width: 500px;
+        padding: 0;
+        margin-top: -35px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: -58%;
+            left: 85px;
+            background-image: url(assets/img/vector-1.svg);
+            width: 377px;
+            height: 845px;
+            z-index: -1;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 34%;
+            left: -28%;
+            background-image: url(assets/img/vector-2.svg);
+            width: 736px;
+            height: 420px;
+            z-index: -1;
+        }
+
+        img {
+            border-radius: 23% 24% 26% 56%;
+        }
+    }
+
+    
 }

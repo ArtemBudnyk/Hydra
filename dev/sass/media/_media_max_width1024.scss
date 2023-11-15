@@ -1,75 +1,112 @@
 @media screen and (max-width: 991px) {
 
-// header
+    // header
 
-header {
+    header {
 
-    .logo-block {
-        max-width: 991px;
-        width: 100%;
+        .logo-block {
+            max-width: 991px;
+            width: 100%;
 
-        .navbar-toggler {
-            margin-right: 20px;
-        }
-
-        .navbar-toggler-icon {
-            position: relative;
-            margin-right: -12px;
-            width: 23px;
-            height: 5px;
-            background-image: none;
-            border-radius: 40px;
-            background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
-
-            &::before {
-                content: "";
-                right: 0px;
-                top: 10px;
-                position: absolute;
-                width: 33px;
-                height: 5px;
-                border-radius: 40px;
-                background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+            .navbar-toggler {
+                margin-right: 20px;
             }
 
-            &::after {
-                content: "";
-                position: absolute;
-                right: 0;
-                bottom: 12px;
-                width: 33px;
+            .navbar-toggler-icon {
+                position: relative;
+                margin-right: -12px;
+                width: 23px;
                 height: 5px;
+                background-image: none;
                 border-radius: 40px;
                 background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+
+                &::before {
+                    content: "";
+                    right: 0px;
+                    top: 10px;
+                    position: absolute;
+                    width: 33px;
+                    height: 5px;
+                    border-radius: 40px;
+                    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    right: 0;
+                    bottom: 12px;
+                    width: 33px;
+                    height: 5px;
+                    border-radius: 40px;
+                    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+                }
             }
+        }
+
+        .btn {
+            display: none;
+        }
+
+        .navbar-nav {
+            align-items: center;
+            max-width: 991px;
+            width: 100%;
+            margin-top: 0;
+            margin-left: 10px;
         }
     }
 
-    .btn {
-        display: none;
+    // first screen 
+
+    .first-screen {
+
+        .row {
+            justify-content: center;
+            max-width: 991px;
+        }
+
+        .col-description {
+            max-width: 991px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            order: 1;
+
+            .dive-title {
+                font-size: 24px;
+                padding-left: 0px;
+                margin-left: 70px;
+            }
+
+            .dive-title {
+                &::before {
+                    left: -120px;
+                    top: -14px;
+                }
+            }
+
+            .reality-title {
+                font-size: 24px;
+                padding-left: 0px;
+                margin-left: 30px;
+                margin-top: 20px;
+                width: 450px;
+
+                &::after {
+                    font-size: 24px;
+                    left: 47px;
+                    top: -15px;
+                }
+            }
+        }
+
+        .col-photo {
+            margin-bottom: 30px;
+        }
     }
-
-    .navbar-nav {
-        align-items: center;
-        max-width: 991px;
-        width: 100%;
-        margin-top: 0;
-        margin-left: 10px;
-    }
-
-    // .collapse {
-    //     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
-    // }
-
-    // .nav-item {
-    //     a {
-    //         color: black;
-    //     }
-    // }
-    
-
-}
-
 
 }
 
