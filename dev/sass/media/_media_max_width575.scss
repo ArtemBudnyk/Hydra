@@ -3,6 +3,7 @@
     // first srceen 
 
     .first-screen {
+        margin-bottom: 55px;
         .col-description {
 
             .dive-title {
@@ -65,6 +66,100 @@
                 top: -112%;
                 background-repeat: no-repeat;
             }
+        }
+    }
+
+    // introduction 
+
+    .introduction {
+
+        #introduction-slider {
+            margin-bottom: 62px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 575px;
+            width: 100%;
+            align-items: center;
+        }
+        
+        .row {
+            margin: auto 5px auto 10px;
+            width: 347px;
+
+            .col {
+                padding: 38px 0px 34px 28px;
+            }
+
+            .col-description {
+                width: 195px;
+                margin-left: 73px;
+            }
+
+            .slick-prev {
+                top: 34%;
+                left: 2%;
+            }
+
+            .slick-next {
+                left: 89%;
+                top: 36%;
+            }
+
+            .pay-us {
+
+                .col-description {
+                    width: 195px;
+                    margin-left: 73px;
+                    text-align: left;
+                }
+
+                &::before {
+                    top: -18px;
+                    left: 3%;
+                    
+                }
+            }
+
+            .send-us::before {
+                left: 4%;
+            }
+
+
+        }
+
+        .hydra-vr {
+            
+            .introduction-title {
+                font-size: 26px;
+                margin: auto auto 17px 6px;
+            }
+
+            .introduction-subtitle{
+                text-align: center;
+                font-size: 26px;
+                margin-left: 4px;
+            }
+
+            .row {
+                .col {
+                    width: 216px;
+
+                    &:nth-child(1) {
+                        text-align: center;
+                    }
+
+                    &:nth-child(2) {
+                        display: none;
+                        width: 0;
+                    }
+                }
+            }
+
+
+            
         }
     }
 

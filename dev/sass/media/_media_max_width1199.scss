@@ -30,8 +30,24 @@
    .introduction {
         .row {
             margin: auto 25px;
+        }
+
+        .hydra-vr {
+            .introduction-title::after {
+                display: none;
+            }
+
+            .introduction-subtitle {
+                &::before {
+                    display: none;
+                }
+
+                &::after {
+                    display: none;
+                }
+            }
+        }
     }
-   }
 
     
 }

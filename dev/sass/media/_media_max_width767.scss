@@ -37,4 +37,16 @@
         
     }
 
+    // introduction
+
+    .introduction {
+        .hydra-vr {
+            display: flex;
+            justify-content: center;
+            .introduction-description {
+                display: none;
+            }
+        }
+    }
+
 }
