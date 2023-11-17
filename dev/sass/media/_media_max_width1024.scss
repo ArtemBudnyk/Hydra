@@ -108,6 +108,44 @@
         }
     }
 
+    // introduction 
+
+    .introduction {
+        .row {
+            .col-title {
+                display: none;
+            }
+
+            .col {
+                padding: 53px 0px 58px 40px;
+            }
+
+            .pay-us,
+            .give-us,
+            .send-us {
+                padding-left: 0;
+                text-align: center;
+            }
+
+            .pay-us {
+                &::after {
+                    display: none;
+                }
+
+                &::before {
+                    top: -30px;
+                    left: 140px;
+                }
+            }
+
+            .send-us {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
 }
 
 
