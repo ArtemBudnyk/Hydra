@@ -130,36 +130,42 @@
 
         }
 
-        .hydra-vr {
+        // .hydra-vr {
             
-            .introduction-title {
-                font-size: 26px;
-                margin: auto auto 17px 6px;
-            }
+        //     .introduction-title {
+        //         font-size: 26px;
+        //         margin: auto auto 17px 6px;
+        //     }
 
-            .introduction-subtitle{
-                text-align: center;
-                font-size: 26px;
-                margin-left: 4px;
-            }
+        //     .introduction-subtitle {
+        //         text-align: center;
+        //         font-size: 26px;
+        //         margin-left: 4px;
+        //     }
 
-            .row {
-                .col {
-                    width: 216px;
+        //     .row {
+        //         .col {
+        //             width: 216px;
 
-                    &:nth-child(1) {
-                        text-align: center;
-                    }
+        //             &:nth-child(1) {
+        //                 text-align: center;
+        //             }
 
-                    &:nth-child(2) {
-                        display: none;
-                        width: 0;
-                    }
-                }
-            }
+        //             &:nth-child(2) {
+        //                 display: none;
+        //                 width: 0;
+        //             }
+        //         }
+        //     }
+        // }
+    }
 
+    // about 
 
-            
+    .about-hydra {
+        .description {
+            width: 325px;
+            font-size: 12px;
         }
     }
 

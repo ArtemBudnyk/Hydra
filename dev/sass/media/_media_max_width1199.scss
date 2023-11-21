@@ -1,55 +1,84 @@
 @media screen and (max-width: 1325px) {
+	// header
 
-    // header
+	header {
+		.logo-block {
+			margin-left: 20px;
+			max-width: 350px;
+		}
 
-    header {
-        .logo-block {
-            margin-left: 20px;
-            max-width: 350px;
-        }
+		.nav-btn-block {
+			margin-right: 20px;
+		}
+	}
 
-        .nav-btn-block {
-            margin-right: 20px;
-        }
-    }
+	// first screen
 
-    // first screen 
+	.first-screen {
+		.col-description {
+			margin-left: 25px;
+		}
 
-    .first-screen {
-        .col-description {
-            margin-left: 25px;
-        }
+		.col-photo {
+			margin-right: 25px;
+		}
+	}
 
-        .col-photo {
-            margin-right: 25px;
-        }
-    }
+	// introduction
 
-   // introduction 
+	.introduction {
+		.row {
+			margin: auto 25px;
+		}
 
-   .introduction {
-        .row {
-            margin: auto 25px;
-        }
+		.hydra-vr {
+			.introduction-title::after {
+				display: none;
+			}
 
-        .hydra-vr {
-            .introduction-title::after {
-                display: none;
-            }
+			.introduction-subtitle {
+				&::before {
+					display: none;
+				}
 
-            .introduction-subtitle {
-                &::before {
-                    display: none;
-                }
+				&::after {
+					display: none;
+				}
+			}
+		}
+	}
 
-                &::after {
-                    display: none;
-                }
-            }
-        }
-    }
+	// about
 
-    
+	.about-hydra {
+		.col-description {
+			margin-right: 25px;
+		}
+
+		.col-photo {
+			margin-left: 25px;
+		}
+	}
+
+	.why-build {
+		.row {
+			margin: auto 25px;
+		}
+
+		.about-hydra-title::after {
+			display: none;
+		}
+
+		.about-hydra-subtitle{
+			&::before {
+				display: none;
+			}
+
+			&::after {
+				display: none;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 1199px) {

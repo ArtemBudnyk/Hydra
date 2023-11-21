@@ -46,6 +46,58 @@
             .introduction-description {
                 display: none;
             }
+
+            .introduction-title {
+                font-size: 26px;
+                margin: auto auto 17px 6px;
+            }
+
+            .introduction-subtitle {
+                text-align: center;
+                font-size: 26px;
+                margin-left: 4px;
+            }
+
+            .row {
+                .col {
+                    width: 216px;
+
+                    &:nth-child(1) {
+                        text-align: center;
+                    }
+
+                    &:nth-child(2) {
+                        display: none;
+                        width: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    // about 
+
+    .why-build {
+        display: flex;
+        justify-content: center;
+
+        .about-hydra-description {
+            display: none;
+        }
+
+        .row {
+            .col {
+                width: 187px;
+
+                &:nth-child(1) {
+                    text-align: center;
+                }
+
+                &:nth-child(2) {
+                    display: none;
+                    width: 0;
+                }
+            }
         }
     }
 
