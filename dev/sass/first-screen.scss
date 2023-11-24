@@ -1,9 +1,20 @@
 .first-screen {
     margin-bottom: 95px;
     .col-description {
+        position: relative;
         padding: 0;
         max-width: 759px;
         width: 100%;
+
+        &::after {
+            content: "";
+            position: absolute;
+            background-image: url(assets/img/vector-3.svg);
+            width: 238.075px;
+            height: 561px;
+            top: -14%;
+            left: -11%;
+        }
 
         .dive-title {
             position: relative;

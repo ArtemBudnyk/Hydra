@@ -78,6 +78,27 @@
 
 .about-hydra {
 	margin-bottom: 112px;
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		background-image: url(assets/img/vector-top-intro.svg);
+		width: 1449px;
+		height: 256.676px;
+		top: 3%;
+		z-index: -1;
+	}
+
+	&::before {
+		content: "";
+		position: absolute;
+		background-image: url(assets/img/vector-butt-intro.svg);
+		width: 1445px;
+		height: 211.75px;
+		top: 55%;
+		z-index: -1;
+	}
 
 	.about-hydra-title {
 		color: #fff;

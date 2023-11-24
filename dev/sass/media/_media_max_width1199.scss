@@ -1,3 +1,22 @@
+@media screen and (max-width: 1400px) {
+	.build-slider {
+		.container {
+			justify-content: center;
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.slider-template {
+			max-width: 986px;
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+			margin-left: 10px;
+		}
+	}
+}
+
 @media screen and (max-width: 1325px) {
 	// header
 
@@ -83,3 +102,4 @@
 
 @media screen and (max-width: 1199px) {
 }
+

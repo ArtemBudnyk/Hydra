@@ -41,5 +41,39 @@ function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
 }
 
 
+// slider build 
+
+$('.slider-template').slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1400,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 676,
+      settings: {
+        slidesToShow: 1,
+        dots: false,
+        arrows: true,
+      }
+    },
+  ]
+});
+
+
   
 

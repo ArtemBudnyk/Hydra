@@ -1,4 +1,4 @@
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991.999px) {
 	/* header   */
 
 	header {
@@ -71,6 +71,10 @@
 			flex-direction: column;
 			align-items: center;
 			order: 1;
+
+			&::after {
+				display: none;
+			}
 
 			.dive-title {
 				font-size: 24px;
@@ -186,6 +190,15 @@
 	}
 
 	.about-hydra {
+
+		&::after {
+			display: none;
+		}
+
+		&::before {
+			display: none;
+		}
+
 		.row {
 			flex-direction: column;
 			justify-content: center;
@@ -240,6 +253,14 @@
 				margin-left: -10px;
 				height: 355px;
 			}
+		}
+	}
+
+	// build-slider
+
+	.build-slider {
+		.slider-template {
+			max-width: 651px;
 		}
 	}
 }

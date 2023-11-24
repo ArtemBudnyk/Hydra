@@ -1,3 +1,78 @@
+@media screen and (max-width: 676px) {
+    .build-slider {
+        margin-top: 28px;
+
+        .slide-box {
+            width: 320px;
+
+            .slider-img {
+                padding-bottom: 41px;
+            }
+
+            .slider-title {
+                margin-bottom: 40px;
+                margin-left: 9px;
+            }
+
+            .slider-description {
+                margin-bottom: 37px;
+                margin-left: 0px;
+            }
+
+            .slider-btn {
+                .btn-try-it {
+                    font-size: 14px;
+                    padding: 15px 78px;
+                }
+            }
+        }
+
+		.slider-template {
+			max-width: 320px;
+            position: relative;
+
+            .slick-prev {
+                position: absolute;
+                width: 55px;
+                height: 55px;
+                font-size: 0;
+                // background: url(assets/img/arrow-build-prev.svg);
+                background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+                border-radius: 100%;
+                border: 7px solid #1e1a31;
+                top: 43%;
+                right: calc(89% - -2px);
+                z-index: 1;
+            }
+    
+            .slick-next {
+                position: absolute;
+                width: 55px;
+                height: 55px;
+                font-size: 0;
+                // background: url(assets/img/arrow-build-next.svg);
+                background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+                background-position: center;
+                border-radius: 100%;
+                border: 7px solid #1e1a31;
+                top: 43%;
+                left: calc(89% - -2px);
+
+                &::after {
+                    content: "";
+                    background: url(assets/img/arrow-build-next.svg);
+                    width: 38px;
+                    height: 38px;
+                    z-index: 1;
+                }
+            }
+             
+
+		}
+	}
+}
+
+
 @media screen and (max-width: 575px) {
 
     // first srceen 
@@ -129,44 +204,34 @@
 
 
         }
-
-        // .hydra-vr {
-            
-        //     .introduction-title {
-        //         font-size: 26px;
-        //         margin: auto auto 17px 6px;
-        //     }
-
-        //     .introduction-subtitle {
-        //         text-align: center;
-        //         font-size: 26px;
-        //         margin-left: 4px;
-        //     }
-
-        //     .row {
-        //         .col {
-        //             width: 216px;
-
-        //             &:nth-child(1) {
-        //                 text-align: center;
-        //             }
-
-        //             &:nth-child(2) {
-        //                 display: none;
-        //                 width: 0;
-        //             }
-        //         }
-        //     }
-        // }
     }
 
     // about 
 
     .about-hydra {
+        margin-bottom: 58px;
         .description {
             width: 325px;
             font-size: 12px;
         }
     }
 
+    // why build 
+
+    .why-build {
+        .about-hydra-title,
+        .about-hydra-subtitle {
+            font-size: 26px;
+        }
+
+        .about-hydra-title {
+            margin-bottom: 16px;
+        }
+
+        .row {
+            .col:nth-child(1) {
+                margin-left: 8px;
+            }
+        }
+    }
 }
