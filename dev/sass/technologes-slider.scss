@@ -1,0 +1,65 @@
+.hardware {
+
+    .container {
+        max-width: 1280px;
+        padding: 0;
+    }
+    
+    .hardware-cart {
+        background: url(assets/img/hardware.svg) top;
+        max-width: 1283px;
+        width: 100%;
+        margin-left: 3px;
+        height: 302px;
+        border-radius: 170px 170px 170px 170px;
+    }
+
+    .hardware-title {
+        display: flex;
+        justify-content: center;
+        padding-top: 106px;
+        margin: auto auto 10px -15px;
+        color: $color-white;
+        font-family: 'Montserrat-bold';
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .hardware-subtitle {
+        display: flex;
+        justify-content: center;
+        margin-left: -28px;
+        color: $color-white;
+        font-family: 'Montserrat-regular';
+        font-size: 36px;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .btn-arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 49px 6px 0 0;
+
+        .arrow {
+            position: relative;
+            width: 98px;
+            height: 98px;
+            border-radius: 100%;
+            background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+            border: 15px solid #201c32;
+
+            &::after {
+                position: absolute;
+                content: "";
+                background-image: url(assets/img/arrow-down.svg);
+                transform: translate(4px, 4px);
+                background-position: center;
+                display: block;
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+}

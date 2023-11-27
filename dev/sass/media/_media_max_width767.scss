@@ -101,4 +101,32 @@
         }
     }
 
+    //hardware
+
+    .hardware {
+
+        .hardware-cart {
+            border-radius: 60px 60px 60px 60px;
+            max-width: 350px;
+            margin-left: 16px;
+            height: 163px;
+            background-size: cover;
+        }
+        
+        .hardware-title {
+            font-size: 16px;
+            padding-top: 52px;
+            margin: auto auto 14px 13px;
+        }
+
+        .hardware-subtitle {
+            font-size: 24px;
+            margin-left: 10px;
+        }
+
+        .btn-arrow {
+            display: none;
+        }
+    }
+
 }

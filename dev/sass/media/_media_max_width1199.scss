@@ -98,6 +98,22 @@
 			}
 		}
 	}
+
+	// hardware
+
+	.hardware {
+
+		.container {
+			max-width: 1325px;
+			justify-content: center;
+			align-items: center;
+			display: flex;
+		}
+
+		.hardware-cart {
+			// max-width: 1000px;
+		}
+	}
 }
 
 @media screen and (max-width: 1199px) {
