@@ -132,9 +132,37 @@
     // technologes-slider 
 
     .technologes-slider {
+        margin-bottom: -23px;
         .slider-box {
             display: flex;
             justify-content: center;
+        }
+    }
+
+    // how we build 
+
+    .how-we-build {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 38px;
+
+        .build-description {
+            display: none;
+        }
+
+        .row {
+            .col {
+                width: 187px;
+
+                &:nth-child(1) {
+                    text-align: center;
+                }
+
+                &:nth-child(2) {
+                    display: none;
+                    width: 0;
+                }
+            }
         }
     }
 

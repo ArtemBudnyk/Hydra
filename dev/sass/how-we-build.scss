@@ -1,0 +1,174 @@
+.how-we-build {
+	margin-bottom: 100px;
+	.row {
+		.col {
+			padding: 0;
+
+			&:nth-child(1) {
+				max-width: 620px;
+				width: 100%;
+				margin-left: 5px;
+			}
+
+			&:nth-child(2) {
+				max-width: 652px;
+				width: 100%;
+			}
+		}
+	}
+
+	.build-title {
+		position: relative;
+		color: $color-white;
+		font-family: "Montserrat-bold";
+		font-size: 36px;
+		line-height: normal;
+		margin-bottom: 10px;
+
+		&::after {
+			content: "";
+			position: absolute;
+			max-width: 200px;
+			width: 100%;
+			border: solid 1px #c0b7e8;
+			top: 80px;
+			left: 54%;
+		}
+	}
+
+	.build-subtitle {
+		position: relative;
+		color: #fff;
+		font-family: "Montserrat-regular";
+		font-size: 36px;
+		font-weight: 300;
+		line-height: normal;
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 23px;
+			border: solid 1px #c0b7e8;
+			transform: rotate(45deg);
+			left: 83%;
+			top: 18px;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			width: 23px;
+			border: solid 1px #c0b7e8;
+			transform: rotate(-45deg);
+			left: 83%;
+			top: 35px;
+		}
+	}
+
+	.build-description {
+		color: #fff;
+		font-family: "Montserrat-regular";
+		font-size: 16px;
+		line-height: inherit;
+	}
+}
+
+.how-we-build-slider {
+	margin-left: 112px;
+	position: relative;
+
+	&::after {
+		content: "";
+		position: absolute;
+		background: url(assets/img/vector-how-we-build.svg);
+		width: 1649px;
+		height: 163px;
+		top: -2%;
+		left: -8%;
+		z-index: -1;
+	}
+
+	.container {
+		padding: 0;
+		max-width: 1285px;
+	}
+
+	.slider-template-build {
+		width: 1300px;
+	}
+
+	.slider-number {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #343045;
+		font-family: "Montserrat-bold";
+		font-size: 64px;
+		line-height: normal;
+		width: 198px;
+		height: 198px;
+		background: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
+		border-radius: 100%;
+		border: 18px solid #161322e6;
+	}
+
+	.slider-title {
+		color: #fff;
+		font-family: "Montserrat-bold";
+		font-size: 24px;
+		line-height: normal;
+		width: 187px;
+	}
+
+	.slider-box {
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			background: url(assets/img/arrow-how-we-build.svg);
+			width: 67px;
+			height: 67px;
+			top: 73%;
+			left: -4%;
+		}
+	}
+
+	.item-1 {
+		position: relative;
+		margin-left: 27px;
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 73%;
+			left: -13%;
+		}
+
+		.slider-title {
+			margin: 27px auto auto 21px;
+		}
+	}
+
+	.item-2 {
+		margin-left: 14px;
+		.slider-title {
+			margin: 27px auto auto 48px;
+		}
+	}
+
+	.item-3 {
+		margin-left: 14px;
+		.slider-title {
+			width: 180px;
+			margin: 27px auto auto 46px;
+		}
+	}
+
+	.item-4 {
+		margin-left: 14px;
+		.slider-title {
+			margin: 28px auto auto 51px;
+		}
+	}
+}

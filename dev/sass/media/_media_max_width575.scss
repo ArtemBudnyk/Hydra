@@ -352,6 +352,8 @@
         }
     }
 
+    // build slider
+
     .build-slider {
         margin-bottom: 50px;
     }
@@ -368,6 +370,26 @@
         .slick-slide {
             display: flex;
             justify-content: center;
+        }
+    }
+
+    // how we build 
+
+    .how-we-build {
+
+        .build-title,
+        .build-subtitle {
+            font-size: 26px;
+        }
+
+        .build-title {
+            margin-bottom: 16px;
+        }
+
+        .row {
+            .col:nth-child(1) {
+                margin-left: 8px;
+            }
         }
     }
 

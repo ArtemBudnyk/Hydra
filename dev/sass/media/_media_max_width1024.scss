@@ -190,7 +190,6 @@
 	}
 
 	.about-hydra {
-
 		&::after {
 			display: none;
 		}
@@ -261,6 +260,110 @@
 	.build-slider {
 		.slider-template {
 			max-width: 651px;
+		}
+	}
+
+	// how we build slider
+
+	.how-we-build-slider {
+		.slick-track {
+			.slick-slide {
+				width: 320px !important;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 900px) {
+
+	.how-we-build-slider {
+		margin-left: 0px;
+
+		.container {
+			display: flex;
+			justify-content: center;
+		}
+
+		.slider-template-build {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 355px;
+			width: 100%;
+		}
+
+		.slider-box {
+			width: 400px;
+			margin-left: 82px;
+
+			.slider-title {
+				margin: 37px auto auto 5px;
+    			text-align: center;
+			}
+			&::after {
+				display: none;
+			}
+		}
+
+		.slick-track {
+			.slick-slide {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 355px !important;
+			}
+		}
+
+		.slider-template-build {
+			position: relative;
+
+			.slick-prev {
+				position: absolute;
+				width: 55px;
+				height: 55px;
+				font-size: 0;
+				// background: url(assets/img/arrow-build-prev.svg);
+				background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+				border-radius: 100%;
+				border: 7px solid #1e1a31;
+				top: 82%;
+				right: calc(85% + 1px);
+				z-index: 1;
+
+				&::after {
+					content: "";
+					display: block;
+					background: url(assets/img/arrow-build-prev.svg);
+					width: 38px;
+					height: 38px;
+					transform: translate(-4px, 0px);
+					z-index: 1;
+				}
+			}
+
+			.slick-next {
+				position: absolute;
+				width: 55px;
+				height: 55px;
+				font-size: 0;
+				// background: url(assets/img/arrow-build-next.svg);
+				background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+				background-position: center;
+				border-radius: 100%;
+				border: 7px solid #1e1a31;
+				top: 82%;
+				left: calc(86% + 7px);
+
+				&::after {
+					content: "";
+					display: block;
+					background: url(assets/img/arrow-build-next.svg);
+					width: 38px;
+					height: 38px;
+					transform: translate(-2px, 0px);
+					z-index: 1;
+				}
+			}
 		}
 	}
 }

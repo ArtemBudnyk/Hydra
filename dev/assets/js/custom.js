@@ -74,6 +74,36 @@ $('.slider-template').slick({
   ]
 });
 
+$('.slider-template-build').slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1400,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 920,
+      settings: {
+        slidesToShow: 1,
+        dots: false,
+        arrows: true,
+      }
+    },
+  ]
+});
 
   
 
