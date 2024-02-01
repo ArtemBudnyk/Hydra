@@ -393,4 +393,39 @@
         }
     }
 
+    // form-hydra 
+
+    .form-hydra {
+
+        .form-title {
+
+            &::after {
+                width: 200px;;
+                left: -11%;
+            }
+        }
+        
+        form {
+            width: 300px;
+
+            .subject,
+            .tell-us {
+                max-width: 300px;
+                margin-left: 12px;
+            }
+
+            .tell-us {
+                padding-bottom: 178px;
+                margin-bottom: 52px;
+            }
+        }
+
+        .btn-form {
+            .btn-send {
+                padding: 15px 93px;
+                margin-left: 6px;
+            }
+        }
+    }
+
 }

@@ -148,6 +148,32 @@
 			}
 		} 
 	}
+
+	.form-hydra {
+		margin-top: 120px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.container {
+			margin: auto 15px auto 25px;
+			max-width: 1200px;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.send {
+			margin-left: 0;
+		}
+
+		form {
+
+			.tell-us,
+			.subject {
+				max-width: 900px;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 1199px) {

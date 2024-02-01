@@ -166,4 +166,54 @@
         }
     }
 
+    .form-hydra {
+        margin-top: 85px;
+
+        .container {
+            border-radius: 40px;
+        }
+
+        .row {
+            flex-direction: column;
+        }
+
+        form {
+
+
+            .subject,
+            .tell-us {
+                max-width: 685px;
+                margin-left: 5px;
+            }
+
+            input {
+                max-width: 695px;
+                padding: 12px;
+                margin-bottom: 24px;
+            }
+        }
+
+        .form-title,
+        .form-subtitle {
+            font-size: 24px;
+            text-align: center;
+            padding-top: 43px;
+            margin-bottom: 40px;
+        }
+
+        .form-subtitle {
+            padding-top: 0;
+            margin-bottom: 43px;
+        }
+
+        .form-title {
+            &::after {
+                width: 400px;
+                left: -70%;
+            }
+        }
+
+        
+    }
+
 }
