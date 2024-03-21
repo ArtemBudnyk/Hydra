@@ -3,6 +3,7 @@ footer {
 		.row {
 			max-width: 1272px;
 			width: 100%;
+			margin-bottom: 105px;
 		}
 	}
 
@@ -109,5 +110,34 @@ footer {
 				background: #302C42;
 			}
 		}
+	}
+
+	.footer-block {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		margin-bottom: 30px;
+
+		&::after {
+			content: "";
+			position: absolute;
+			max-width: 1269px;
+			width: 100%;
+			height: 3px;
+			background: linear-gradient(90deg, #8176af4f 0%, #c0b7e86b 100%);
+			top: -200%;
+		}
+
+		h5 {
+			font-family: 'Montserrat-bold';
+			color: #fff;
+			font-size: 14px;
+			line-height: 17.07px;
+			letter-spacing: 0.13em;
+			text-align: left;
+
+		}
+
 	}
 }
