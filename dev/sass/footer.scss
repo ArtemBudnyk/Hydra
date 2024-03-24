@@ -67,6 +67,10 @@ footer {
 			text-align: left;
 			text-transform: uppercase;
 			margin-bottom: 23px;
+
+			&:hover {
+				color: #C0B7E8;
+			}
         }
 
 		ul {
@@ -136,6 +140,10 @@ footer {
 			line-height: 17.07px;
 			letter-spacing: 0.13em;
 			text-align: left;
+
+			&:hover {
+				color: #C0B7E8;
+			}
 
 		}
 

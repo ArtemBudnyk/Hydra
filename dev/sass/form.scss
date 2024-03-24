@@ -1,5 +1,11 @@
 .form-hydra {
     margin-top: 120px;
+
+    // input[type='text']:active {
+    //     border: 3px solid #8176AF!important;
+    //     color: #8176AF;
+    //     border-color: #8176AF;
+    // }
     
     .container {
         display: flex;
@@ -82,7 +88,7 @@
     .send {
         max-width: 1080px;
         width: 100%;
-        margin-left: 20px;
+        // margin-left: 20px;
     }
 
     .btn-form {

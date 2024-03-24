@@ -406,11 +406,11 @@
         }
         
         form {
-            width: 300px;
+            max-width: 470px;
 
             .subject,
             .tell-us {
-                max-width: 300px;
+                max-width: 450px;
                 margin-left: 12px;
             }
 

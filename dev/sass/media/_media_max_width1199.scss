@@ -164,14 +164,16 @@
 		}
 
 		.send {
-			margin-left: 0;
+			// margin-left: 0;
+			margin-left: 35px;
+			margin-right: 35px;
 		}
 
 		form {
 
 			.tell-us,
 			.subject {
-				max-width: 900px;
+				max-width: 1070px;
 			}
 		}
 	}

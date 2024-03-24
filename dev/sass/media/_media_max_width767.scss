@@ -176,8 +176,10 @@
 		form {
 			.subject,
 			.tell-us {
-				max-width: 685px;
-				margin-left: 5px;
+				// max-width: 685px;
+				// margin-left: 5px;
+				width: 97%;
+				margin-left: 10px;
 			}
 
 			input {
